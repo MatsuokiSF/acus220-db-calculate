@@ -3,7 +3,7 @@ node_modules/
 package-lock.json
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -19,3 +19,28 @@ yarn-error.log*
 .vscode/
 .idea/
 
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+
+# Ignorar archivos de salida de compilación
+build/
+dist/
+
+# Archivos específicos del proyecto (ajusta según sea necesario)
+*.sqlite3  # Si usas bases de datos SQLite
+*.db       # Para bases de datos en general
+
+# Archivos generados por el sistema
+Thumbs.db
